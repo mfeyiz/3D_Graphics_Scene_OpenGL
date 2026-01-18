@@ -22,7 +22,15 @@ This project is an interactive 3D graphics scene developed using OpenGL and Pyga
   - Real-time camera movement
 - **Enclosed Room Environment**: A dark room with 8x8 unit dimensions
 
-## 🚀 Installation
+## � Screenshots
+
+### Scene Overview
+![Scene Overview](images/photo1.png)
+
+### Lighting and Materials
+![Lighting and Materials](images/photo2.png)
+
+## �🚀 Installation
 
 ### Requirements
 
@@ -38,17 +46,7 @@ cd ComputerGraphics
 
 ### Step 2: Install Dependencies
 
-**With uv (Recommended):**
-
 ```bash
-uv sync
-```
-
-**With pip:**
-
-```bash
-pip install -r requirements.txt
-# or manually:
 pip install numpy pygame PyOpenGL PyOpenGL_accelerate
 ```
 
@@ -68,12 +66,6 @@ To run the program:
 
 ```bash
 python main.py
-```
-
-or with uv:
-
-```bash
-uv run python main.py
 ```
 
 ### Controls
